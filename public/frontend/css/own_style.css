@@ -1,0 +1,182 @@
+@charset "utf-8";
+/* CSS Document */
+.content_tt img {
+    width: 400px !important;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.m_content_tt img {
+    width: 99% !important;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.bg_menu-super {
+    background-color: #00334a;
+    bottom: 0;
+    display: block;
+    height: 100%;
+    left: -250px;
+    margin: 0;
+    position: absolute;
+    top: 72px;
+    width: 250px;
+    z-index: 9998;
+}
+#container {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+#page.hidden {
+    overflow: hidden;
+}
+.icon_menu {
+    cursor: pointer;
+}
+.team-logo {
+    width: 70px;
+    height: 70px;
+}
+.draw {
+    color: #00CC33;
+}
+.lose {
+    color: #6699FF;
+}
+.TK { position:relative; margin:0px auto; padding:0px; overflow: hidden; height: 300px;}
+.livescore { position:relative; margin:0px auto; padding-right: 10px; /*height: 550px;*/}
+.TK_match_3 a {color: #ffffff; }
+.Box_live{
+    background-color:#FFF;
+    border:1px solid#dddddd;
+    padding:8px 0 8px 8px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    margin:0 0 10px 0;
+}
+.pr8 {
+    padding-right: 8px;
+}
+
+.Page_TK_BXH_sub {
+    background-color: #e5ebe1;
+    line-height: 24px;
+}
+.label {
+    border-radius: 3px;
+}
+.label, .badge {
+    background-color: #999;
+    color: #fff;
+    display: inline-block;
+    font-size: 11.844px;
+    font-weight: bold;
+    line-height: 14px;
+    padding: 2px 4px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+.label-success, .badge-success {
+    background-color: #468847;
+}
+.label-warning, .badge-warning {
+    background-color: #f89406;
+}
+.label-important, .badge-important {
+    background-color: #b94a48;
+}
+.label-info, .badge-info {
+    background-color: #3a87ad;
+}
+.ĐB_content_img img {
+    border-radius: 50px;
+}
+.ĐB_content_img2 img { 
+    border-radius: 50px;
+}
+.Page_Diemtin_Tin_Content a {
+    color: #333333;
+}
+.TT_match a {
+    color: #FFF;
+}
+.Title_left h1 {
+    color: #0d62b3;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.Title_left h2 {
+    color: #0d62b3;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+.ĐB_background h2 {
+    //color: #0d62b3;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+.Box h2 {
+    display: inline-block;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.Box h3 {
+    display: inline-block;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+.Box_live h3 {
+    display: inline-block;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+.Page_Diemtin_Tin_Title h1 {
+    font-size: 16px;
+    margin: 0;
+}
+.Page_Diemtin_Tin_Content_more_title h2{
+    font-size: 12px;
+    color: #b90101;
+    background-color: #FFF;
+    padding: 0;
+    padding: 0;
+}
+.VIDEO_title h2 {
+    font-size: 14px;
+    color: #FFF;
+    background-color: #128e75;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.ND h2 {
+    font-size: 12px;
+    color: #FFF;
+    background-color: #303030;
+}
+.TK_title h2 {
+    display: inline;
+    color: #00552a;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+.PAGE_CLB_content h2{
+    font-size: 12px;
+    margin: 0;
+    background-color: #FFF;
+    font-weight: normal;
+}
