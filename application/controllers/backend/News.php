@@ -296,7 +296,6 @@ class News extends CI_Controller {
             $this->_data['is_active'] = $this->input->post('is_active');
             $this->_data['content'] = $this->input->post('content');
             $this->_data['topic_id'] = $this->input->post('topic_id');
-            $this->_data['type_id'] = $this->input->post('type_id');
             //
             $this->_data['listNewsTopic'] = $this->MNewsTopic->getListForSelectBox(true);
             $this->_data['listNewsType'] = MyHelper::getNewsEventType();
@@ -324,11 +323,8 @@ class News extends CI_Controller {
                 'content' => $content,
                 'is_active' => $is_active,
                 'topic_id' => $topic_id,
-                'type' => $type_id,
                 'view_counter' => 0,
                 'created_by' => $this->session->userdata('admin_id'),
-                'location' => null,
-                'language' => 'en',
                 'created_at' => date('Y-m-d H:i:s'),
                 'updated_at' => date('Y-m-d H:i:s')
             );
