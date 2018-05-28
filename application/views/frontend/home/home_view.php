@@ -95,7 +95,7 @@
                         <?php echo $tintuc[$i]['title'];?>
                     </a>
                     </h3>
-                    <p><?php echo date('H:i', strtotime( $tintuc[$i]['created_at'])) . ' | ' . date('d.m.Y', strtotime( $nhandinh[$i]['created_at']));?></p>
+                    <p><?php echo date('H:i', strtotime( $tintuc[$i]['created_at'])) . ' | ' . date('d.m.Y', strtotime( $tintuc[$i]['created_at']));?></p>
                 </div>
                 <div class="both"></div>
             </li>
@@ -126,7 +126,7 @@
                 <img src="<?php echo base_url($tip[0]['image_path']) ?>"  class="images">
             </a>
             <p>
-                <a href="<?php echo base_url('nhan-dinh-bong-da') . $tip[0]['slug']; ?>">
+                <a href="<?php echo base_url($tip[0]['slug'] ). '.html' ; ?>">
                     <?php echo $tip[0]['title'];?>
                 </a>
             </p>
@@ -146,7 +146,7 @@
                 </div>
                 <div class="ND_news_text">
                     <h3>
-                    <a href="<?php echo base_url('nhan-dinh-bong-da') . $tip[$i]['slug'] . '.html'; ?>">
+                    <a href="<?php echo base_url($tip[$i]['slug'] ). '.html' ; ?>">
                         <?php echo $tip[$i]['title'];?>
                     </a>
                     </h3>
